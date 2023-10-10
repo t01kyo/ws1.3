@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WS1.3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="row">
+            <div class="col-8">
+
+                <div class="logo">
+                    <div class="image">
+                        <img src="logo.png" alt="" srcset="">
+                    </div>
+
+                    <div class="text">
+                        Advanced Web Development: Front End 1<br> BSIT 3
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="student-profile">
+                    <h3>Obaña, Alcel Marie O.</h3>
+                <img src="pfp.jpg" alt="">
+            </div>
+               
+            </div>
+        </div>
+
+    </header>
+
+
+    <div class="wrapper">
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">ws1.3</a></li>
+                <li><a href="#">ws1.4</a></li>
+                <li><a href="#">ws1.5</a></li>
+                <li><a href="#">ws1.6</a></li>
+            </ul>
+        </nav>
+
+        <nav class="navbar1">
+            <ul>
+                <select>
+                    <option>Employee Profile</option>
+                    <option>Report</option>
+                </select>
+            </ul>
+        </nav>
+
+        <div class="wrapper1">
+
+    <form class="profile-card">
+        
+        <div class="row">
+        <p>
+            <div class="col-4">
+                <div class="input-group">
+                    <strong><label class="label">Lastname</label></strong>
+                    <input name="Lastname" id="lastname" class="input" type="">
+                </div>
+            </div>
+        </p>
+
+        <p>
+            <div class="col-4">
+                <div class="input-group">
+                    <strong><label class="label">FirstName</label></strong>
+                    <input name="firstname" id="firstname" class="input" type="">
+                </div>
+            </div>
+        </p>
+
+        <p>
+            <div class="col-4">
+                <div class="input-group">
+                    <strong><label class="label">Middle Name</label></strong>
+                    <input name="middlename" id="middlename" class="input" type="">
+                </div>
+            </div>
+
+        </p>
+       
+        </div>
+
+        <div class="row">
+            <p>
+                <div class="col-4">
+                    <div class="input-group">
+                        <strong><label for="birthdate">Birthdate</label></strong>
+                        <input type="date" id="birthdate" name="birthdate">
+                    </div>
+                </div>
+            </p>
+
+            <p> 
+                <div class="col-4">
+                    <div class="input-group">
+                    <strong><label class="label">Age</label></strong>
+                    <input type="number" name="age">
+                    </div>
+                </div>
+            </p>
+
+            <p>
+                <div class="col-4">
+                    <div class="input-group">
+                        <strong><label class="label">Address</label></strong>
+                        <input id="address" class="input" type="">
+                    </div>
+                </div>
+            </p>
+
+        </div>
+
+        <div class="entry">
+
+        <p>
+            <div class="col-4">
+                <div class="input-group">
+                    <strong><label class="label">Sex</label></strong>
+                    <select name="sex">
+                    <option value="Male" selected>Choose</option>
+                    <option value="Female">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                    </select>
+                </div>
+            </div>
+        </p>
+
+            <p>
+                <div class="col-4">
+                    <div class="input-group">
+                        <strong><label class="label">Status:</label></strong>
+                        <select name="status">
+                        <option value="Full time" selected>Full Time</option>
+                        <option value="Part time">Part Time</option>
+                        </select>
+                    </div>
+                </div>
+            </p>
+
+            <p>
+                <div class="col-4">
+                    <div class="input-group">
+                        <strong><label class="label">Rank</label></strong>
+                        <select name="Rank">
+                        <option value="choose" selected>Choose</option>
+                        <option value="inst1">INST1</option>
+                        <option value="inst2">INST2</option>
+                        <option value="assist1">ASSIST1</option>
+                        <option value="assist2">ASSIST2</option>
+                        <option value="assist3">ASSIST3</option>
+                        <option value="Other">ASSIST4</option>
+                        </select>
+                    </div>
+                </div>
+            </p>
+
+        </div>
+
+            <p>
+                <div class="col-4">
+                    <div class="input-group">
+                        <strong><label class="label">Date Hired</label></strong>
+                        <input type="date" name="date_hired" value="2020-01-15">
+                    </div>
+                </div>
+            </p>
+
+            <p>
+                <div class="col-4">
+                    <div class="input-group">
+                        <strong><label class="label">Is Active</label></strong>
+                        <input type="checkbox" name="is_active" checked>
+                    </div>
+                </div>
+            </p>
+            <br>
+                <p>
+                    <h3>Educational Background</h3>
+                </p>
+
+                <div class="box">
+                    <p>
+                        <h4>Undergraduate:</h4>
+                        <label for="course">Course</label>
+                            <input name="course" id="course" class="input" type="">
+                        <label class="label">Year Graduated</label>
+                        <input type="date" name="year_graduated" value="2020-01-15">
+                    </p>
+                    <p>
+                        <h4>Master Degree:</h4>
+                        <label for="course">Course</label>
+                            <input name="course" id="course" class="input" type="">
+                        <label class="label">Year Graduated</label>
+                        <input type="date" name="year_graduated" value="2020-01-15">
+                    </p>
+        
+                    <p>
+                        <h4>Doctorate:</h4>
+                        <label for="course">Course</label>
+                            <input name="course" id="course" class="input" type="">
+                        <label class="label">Year Graduated</label>
+                        <input type="date" name="year_graduated" value="2020-01-15">
+                    </p>
+
+                </div>
+        <div class="submit">
+            <input type="submit" value="Save Profile"></div>
+                
+
+         </div>
+    </div>
+
+    </form>
+    </div>
+
+<footer class="footer">
+
+    <footer><h3>Mr. Jim-mar delos Reyes</h3></footer>
+
+</footer>
+
+
+</body>
+</html>
